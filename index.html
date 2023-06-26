@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer | MN Shariff | UI/UX Designer.</title>
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="mn shariff">
+    <meta name="description" content="wordpress developer and front-end developer">
+    <link href="img/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- <header  class="header-in">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-3 nav-bar">
+      <div class="container shadow-3">
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <button
+          class="navbar-toggler first-button"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          id="burger"
+        >
+          <div class="animated-icon1">
+            <span class="burger"></span><span class="burger"></span><span class="burger"></span>
+          </div>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav nav-main">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-center"
+                aria-current="page"
+                href="/index.html"
+                >Home</a
+              >
+            </li>
+
+           
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#about-me" >About Me</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#skills-main">Skills</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#education">Education</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#wid">WID</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#port" >Portfolio</a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <button type="button" class="btn btn-contact btn-anim" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Hire Me<div class="dot"></div>
+            </button>
+        </div>
+        
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title fs-5" id="exampleModalLabel">Modal title</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+  </header> -->
+
+
+  <div class="preloader">
+    <!-- <div class="loading">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div> -->
+    <div class="logo">
+      <span class="letter"> <img src="img/logo1.png" alt=""></span>
+    </div>
+  </div>
+  <div class="content">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light fixed-top glassmor navbar-default">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/logo2.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-grip-lines color"></i>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link text-center hover-menu" href="#">Home</a>
+              <a class="nav-link text-center hover-menu" href="#about-me">About Me</a>
+              <a class="nav-link text-center hover-menu" href="#skills-main">Skills</a>
+              <a class="nav-link text-center hover-menu" href="#education">Education</a>
+              <a class="nav-link text-center hover-menu" href="#experience">Experience</a>
+              <a class="nav-link text-center hover-menu" href="#wid">WID</a>
+              <a class="nav-link text-center hover-menu" href="#port">Portfolio</a>
+            </div>
+
+            <div>
+              <button type="button" class="btn btn-contact btn-anim" data-bs-toggle="modal"
+                data-bs-target="#Modal"><span class="iconSpace"><i class="fa fa-bell"></i></span>HIRE ME<span class="dot"></span>
+              </button>
+              <div class="modal fade" id="Modal" aria-labelledby="ModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2 class="modal-title fs-5" id="ModalLabel">Hire Me</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <!-- <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 sticky-lg-top vh-100">
+          <div class="d-flex flex-column h-92 text-center overflow-auto shadow-n mt card-grad">
+            <img class="img-pro img-fluid mb-4" src="img/winkboy.png" width="240" alt="Image" style="margin: auto;">
+            <h2 class="text-primary txt-h2 mt-2">Mohammed Niyamathulla Shariff</h2>
+            <div class="mb-4" style="height: 22px;">
+              <span class="typed"></span><span class="line">&nbsp;</span>
+            </div>
+            <div class="d-flex justify-content-center mt-auto mb-3">
+              <a class="btn btn-icons icon-h mx-1" href="#"><img src="img/facebook.png" alt="" width="35"></a>
+              <a class="btn btn-icons icon-h mx-1" href="#"><img src="img/instagram.png" alt="" width="35"></a>
+              <a class="btn btn-icons icon-h mx-1" href="#"><img src="img/ln.png" alt="" width="35"></a>
+              <a class="btn btn-icons icon-h mx-1" href="#"><img src="img/twitter.png" alt="" width="35"></a>
+            </div>
+            <div class="d-flex align-items-end justify-content-between border-top">
+              <a href="" class="btn w-50 border-end">Download CV</a>
+              <a href="#contact" class="btn w-50 btn-scroll">Contact Me</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <!-- About Start -->
+          <div id="about-me" class="pt-3">
+
+          </div>
+          <section class="py-5 border-bottom mt-5">
+            <h2 class="title pb-3 mb-5">About Me</h2>
+            <p>As a Web Designer and Developer with 1.4+ years of experience, I specialize in creating visually
+              appealing and user-friendly websites that meet the needs of clients. I have a strong understanding of
+              front-end development technologies such as HTML, CSS, Bootstrap, Reactjs and JavaScript, as well as
+              experience with back-end technologies such as PHP and MYSQL.
+              Throughout my career, I have demonstrated a keen eye for detail and a commitment to delivering
+              high-quality work that meets client expectations. I am a creative problem-solver with excellent
+              communication skills and a proven track record of working collaboratively with team members and
+              stakeholders to achieve project goals.
+              If you're looking for a skilled Web Designer and Developer with a passion for delivering exceptional
+              results, look no further. I am eager to take on new challenges and contribute my expertise to your team.
+            </p>
+            <div class="row mb-4">
+              <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Name:</span> Mohammed Niyamathulla Shariff
+              </div>
+              <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Birthday:</span> 07 September 2000
+              </div>
+              <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Degree:</span> BCA
+              </div>
+              <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Experience:</span> 1 Years
+              </div>
+              <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Phone:</span> +91 911 385 6978
+              </div>
+              <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Email:</span> mohammedniyamathullas@gmail.com
+              </div>
+              <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Address:</span> 7th Cross, 1st Main, Bhuvaneshwarinagar, R.T Nagar
+                Post, Bangalore, KA:-560032, India
+              </div>
+              <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Freelance:</span> Available
+              </div>
+              <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Full-Time:</span> Available
+              </div>
+            </div>
+            <div class="row g-4">
+              <div class="col-md-4 col-lg-6 col-xl-4">
+                <div class="d-flex bg-secondary p-4">
+                  <h2 class="flex-shrink-0 display-5 text-primary mb-0 counter-count">1</h2>
+                  <div class="ps-3">
+                    <p class="mb-0">Years of</p>
+                    <h5 class="mb-0">Experience</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-6 col-xl-4">
+                <div class="d-flex bg-secondary p-4">
+                  <h2 class="flex-shrink-0 display-5 text-primary mb-0 counter-count">11</h2>
+                  <div class="ps-3">
+                    <p class="mb-0">Happy</p>
+                    <h5 class="mb-0">Clients</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-6 col-xl-4">
+                <div class="d-flex bg-secondary p-4">
+                  <h2 class="flex-shrink-0 display-5 text-primary mb-0 counter-count">11</h2>
+                  <div class="ps-3">
+                    <p class="mb-0">Complete</p>
+                    <h5 class="mb-0">Projects</h5>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div id="skills-main" class="pt-3">
+
+            </div>
+          </section>
+          <!-- About End -->
+          <!-- Skills Start -->
+
+          <section class="border-bottom py-5" data-aos="fade-up">
+            <h2 class="title pb-3 mb-5">Skills</h2>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="bar mt-3">
+                  <div class="info">
+                    <span>HTML</span>
+                  </div>
+                  <div class="progress-line html">
+                    <span></span>
+                  </div>
+                </div>
+                <div class="bar mt-3">
+                  <div class="info">
+                    <span>CSS</span>
+                  </div>
+                  <div class="progress-line css">
+                    <span></span>
+                  </div>
+                </div>
+
+                <div class="bar mt-3">
+                  <div class="info">
+                    <span>Adobe XD & Figma</span>
+                  </div>
+                  <div class="progress-line af">
+                    <span></span>
+                  </div>
+                </div>
+                <div class="bar mt-3">
+                  <div class="info">
+                    <span>Bootstrap</span>
+                  </div>
+                  <div class="progress-line bs">
+                    <span></span>
+                  </div>
+                </div>
+                <div class="bar mt-3">
+                  <div class="info">
+                    <span>Python</span>
+                  </div>
+                  <div class="progress-line py">
+                    <span></span>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-sm-6">
+                <div class="bar mt-3">
+                  <div class="info">
+                    <span>Javascript</span>
+                  </div>
+                  <div class="progress-line js">
+                    <span></span>
+                  </div>
+                </div>
+                <div class="bar mt-3">
+                  <div class="info">
+                    <span>Reactjs</span>
+                  </div>
+                  <div class="progress-line rjs">
+                    <span></span>
+                  </div>
+                </div>
+                <div class="bar mt-3">
+                  <div class="info">
+                    <span>WordPress</span>
+                  </div>
+                  <div class="progress-line word">
+                    <span></span>
+                  </div>
+                </div>
+                <div class="bar mt-3">
+                  <div class="info">
+                    <span>Java</span>
+                  </div>
+                  <div class="progress-line java">
+                    <span></span>
+                  </div>
+                </div>
+                <div class="bar mt-3">
+                  <div class="info">
+                    <span>Angular</span>
+                  </div>
+                  <div class="progress-line an">
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Skills End -->
+
+          <!-- education -->
+          <section class="py-5 border-bottom" data-aos="fade-up">
+            <h2 class="title pb-3 mb-5">Education</h2>
+            <div class="border-start border-2 border-light pt-2 ps-5">
+              <div class="position-relative mb-4">
+                <span class="bi bi-arrow-right fs-4 text-light position-absolute"
+                  style="top: -5px; left: -50px;"></span>
+                <h5 class="mb-1">10TH</h5>
+                <p class="mb-2">R.T Nagar Educational Trust High School</p>
+                <p><small>2016</small></p>
+              </div>
+              <div class="position-relative mb-4">
+                <span class="bi bi-arrow-right fs-4 text-light position-absolute"
+                  style="top: -5px; left: -50px;"></span>
+                <h5 class="mb-1">12TH</h5>
+                <p class="mb-2">International Institute of Business Studies</p>
+                <p><small>2016 - 2018</small></p>
+              </div>
+              <div class="position-relative mb-4">
+                <span class="bi bi-arrow-right fs-4 text-light position-absolute"
+                  style="top: -5px; left: -50px;"></span>
+                <h5 class="mb-1">Bachelor of Computer Applications</h5>
+                <p class="mb-2">International Institute of Business Studies</p>
+                <p><small>2018 - 2022</small></p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Expericence Start -->
+          <section class="py-5 border-bottom" data-aos="fade-up">
+            <h2 class="title pb-3 mb-5">Experience</h2>
+            <div class="border-start border-2 border-light pt-2 ps-5">
+              <div class="position-relative mb-4">
+                <span class="bi bi-arrow-right fs-4 text-light position-absolute"
+                  style="top: -5px; left: -50px;"></span>
+                <h5 class="mb-1">Web Developer</h5>
+                <p class="mb-2">Insueta Technologies Pvt Ltd | <small>04 / 2023 - present</small></p>
+                <ul>
+                  <li>Designed and implemented website from initial concept, site architecture<br>
+                    and wireframes to finished deliverable.</li>
+                  <li>Converted design assets into component-based HTML, CSS, Bootstrap and
+                    JavaScript.</li>
+                  <li>Used critical thinking to break down problems, evaluate solutions and<br>
+                    make decisions.
+                  </li>
+                  <li>Proved successful working within tight deadlines and a fast-paced<br>
+                    atmosphere.
+                  </li>
+                  <li>Participated in team-building activities to enhance working relationships.
+                  </li>
+                  <li>Used to Design Websites and Applications via Figma and Adobe XD<br>
+                    Design Tool.
+                  </li>
+                  <li>Built websites using ( Odoo ERP )</li>
+                </ul>
+              </div>
+              <div class="position-relative mb-4">
+                <span class="bi bi-arrow-right fs-4 text-light position-absolute"
+                  style="top: -5px; left: -50px;"></span>
+                <h5 class="mb-1">Web Developer</h5>
+                <p class="mb-2">Reliable Software Technology | <small>12 / 2021 - 04 / 2023</small></p>
+                <ul>
+                  <li>Designed and implemented website from initial concept, site architecture<br>
+                    and wireframes to finished deliverable.</li>
+                  <li>Converted design assets into component-based HTML, CSS, Bootstrap and
+                    JavaScript.</li>
+                  <li>Used critical thinking to break down problems, evaluate solutions and<br>
+                    make decisions.
+                  </li>
+                  <li>Proved successful working within tight deadlines and a fast-paced<br>
+                    atmosphere.
+                  </li>
+                  <li>Participated in team-building activities to enhance working relationships.
+                  </li>
+                  <li>Used to Design Websites and Applications via Figma and Adobe XD<br>
+                    Design Tool.
+                  </li>
+                  <li>Built websites using ( Odoo ERP )</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <!-- Expericence End -->
+
+          <!-- Services Start -->
+          <section class="py-5 border-bottom border-bottom" data-aos="fade-up">
+            <h2 class="title pb-3 mb-5">What I Do</h2>
+            <div class="row g-4">
+              <div class="col-md-6" data-aos="zoom-in-up">
+                <div class="service-item text-center">
+                  <!-- <i class="fa fa-2x fa-laptop-code mx-auto mb-4"></i> -->
+                  <img src="img/webdev-icon.png" alt="" width="100">
+                  <h5 class="mb-2 text-center">Web Designing/Development</h5>
+                  <!-- <p class="mb-0">Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem
+                    lorem
+                    est amet labore</p> -->
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="zoom-in-up">
+                <div class="service-item text-center">
+                  <!-- <i class="fab fa-2x fa-android mx-auto mb-4"></i> -->
+                  <img src="img/app-icon.png" alt="" width="100">
+                  <h5 class="mb-2 text-center">Apps Designing/Development</h5>
+                  <!-- <p class="mb-0">Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem
+                    lorem
+                    est amet labore</p> -->
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="zoom-in-up">
+                <div class="service-item text-center">
+                  <!-- <i class="fa fa-2x fa-search mx-auto mb-4"></i> -->
+                  <img src="img/uiux-icon.png" alt="" width="100">
+                  <h5 class="mb-2 text-center">UI/UX Designing</h5>
+                  <!-- <p class="mb-0">Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem
+                    lorem
+                    est amet labore</p> -->
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="zoom-in-up">
+                <div class="service-item text-center">
+                  <!-- <i class="fa fa-2x fa-edit mx-auto mb-4"></i> -->
+                  <img src="img/digital-marketing.png" alt="" width="100">
+                  <h5 class="mb-2 text-center">Digital Marketing</h5>
+                  <!-- <p class="mb-0">Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem
+                    lorem
+                    est amet labore</p> -->
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Services End -->
+
+          <!-- Portfolio Start -->
+          <section class="py-5 border-bottom" data-aos="fade-up">
+            <h2 class="title pb-3 mb-5">Portfolio</h2>
+            <div class="portcol">
+              <div id="myBtnContainer" class="d-flex d-flex2 justify-content-center">
+                <div class="btn-sin">
+                  <button class="btn btn-port" onclick="filterSelection('all')"> Show all</button>
+                </div>
+                <div class="btn-sin">
+                  <button class="btn btn-port" onclick="filterSelection('wordpress')"> WordPress</button>
+                </div>
+                <div class="btn-sin">
+                  <button class="btn btn-port" onclick="filterSelection('uiux')"> UI/UX</button>
+                </div>
+                <div class="btn-sin">
+                  <button class="btn btn-port" onclick="filterSelection('Webdev')"> Web Dev</button>
+                </div>
+                <div class="btn-sin btn-la">
+                  <button class="btn btn-port" onclick="filterSelection('appdev')"> App Dev</button>
+                </div>
+              </div>
+
+              <!-- Portfolio Gallery Grid -->
+              <div class="portcol row">
+                <div class="col-md-12">
+                  <div class="column wordpress col-md-4">
+                    <div class="img-div">
+                      <img src="img/winkboy.png" alt="Item" style="width:100%">
+                      <div class="overlay">
+                        <h3>Item 1</h3>
+                        <span class="hr"></span>
+                        <div>
+                          <hr>
+                          <span><i class="fa fa-link"></i></span>
+                          <span><i class="fa fa-solid fa-box"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column wordpress col-md-4">
+                    <div class="img-div">
+                      <img src="img/winkboy.png" alt="Lights" style="width:100%">
+
+                    </div>
+                  </div>
+                  <div class="column wordpress col-md-4">
+                    <div class="img-div">
+                      <img src="img/winkboy.png" alt="Nature" style="width:100%">
+
+                    </div>
+                  </div>
+
+                  <div class="column uiux col-md-4">
+                    <div class="img-div">
+                      <img src="img/winkboy.png" alt="Car" style="width:100%">
+
+                    </div>
+                  </div>
+                  <div class="column uiux col-md-4">
+                    <div class="img-div">
+                      <img src="img/winkboy.png" alt="Car" style="width:100%">
+
+                    </div>
+                  </div>
+                  <div class="column uiux col-md-4">
+                    <div class="img-div">
+                      <img src="img/winkboy.png" alt="Car" style="width:100%">
+
+                    </div>
+                  </div>
+
+                  <div class="column Webdev col-md-4">
+                    <div class="img-div">
+                      <img src="img/winkboy.png" alt="Car" style="width:100%">
+
+                    </div>
+                  </div>
+                  <div class="column Webdev col-md-4">
+                    <div class="img-div">
+                      <img src="img/winkboy.png" alt="Car" style="width:100%">
+
+                    </div>
+                  </div>
+                  <div class="column Webdev col-md-4">
+                    <div class="img-div">
+                      <img src="img/winkboy.png" alt="Car" style="width:100%">
+
+                    </div>
+                  </div>
+
+                  <div class="column appdev col-md-4">
+                    <div class="img-div">
+                      <img src="img/winkboy.png" alt="Car" style="width:100%">
+
+                    </div>
+                  </div>
+                  <div class="column appdev col-md-4">
+                    <div class="img-div">
+                      <img src="img/winkboy.png" alt="Car" style="width:100%">
+
+                    </div>
+                  </div>
+                  <div class="column appdev col-md-4">
+                    <div class="img-div">
+                      <img src="img/winkboy.png" alt="Car" style="width:100%">
+
+                    </div>
+                  </div>
+                </div>
+                <!-- END GRID -->
+              </div>
+            </div>
+          </section>
+          <!-- Portfolio End -->
+
+
+
+          <!-- Contact Start -->
+          <section class="py-5 border-bottom" id="contact" data-aos="fade-up">
+            <h2 class="title pb-3 mb-5">Contact Me</h2>
+            <p class="mb-4">Give me your thoughts, and I'll get back to you right away. I'm ready when you are, whether
+              you are just beginning to plan or are eager to get started.
+            </p>
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control border-0 bg-secondary" id="name" placeholder="Your Name">
+                    <label for="name">Your Name</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input type="email" class="form-control border-0 bg-secondary" id="email" placeholder="Your Email">
+                    <label for="email">Your Email</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <input type="text" class="form-control border-0 bg-secondary" id="subject" placeholder="Subject">
+                    <label for="subject">Subject</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea class="form-control border-0 bg-secondary" placeholder="Leave a message here" id="message"
+                      style="height: 200px"></textarea>
+                    <label for="message">Message</label>
+                  </div>
+                </div>
+                <div class="col-12 text-center mt-0">
+                  <button class="btn btn-primary btn-wi py-3" type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </section>
+          <!-- Contact End -->
+
+          <!-- Footer Start -->
+          <section>
+            <div class="bg-secondary text-light text-center p-5">
+              <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-icons icon-h mx-1" href="#"><img src="img/facebook.png" alt="" width="35"></a>
+                <a class="btn btn-icons icon-h mx-1" href="#"><img src="img/instagram.png" alt="" width="35"></a>
+                <a class="btn btn-icons icon-h mx-1" href="#"><img src="img/ln.png" alt="" width="35"></a>
+                <a class="btn btn-icons icon-h mx-1" href="#"><img src="img/twitter.png" alt="" width="35"></a>
+              </div>
+
+              <h5 class="m-0">Cameout &copy; 2023. All Rights Reserved. <a href="https://htmlcodex.com">MN Shariff</a></h5>
+            </div>
+          </section>
+          <!-- Footer End -->
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="arrow">
+      <a href="#" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="js/query.js"></script>
+  <script src="js/index.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
