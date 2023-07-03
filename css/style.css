@@ -1235,3 +1235,25 @@ details[open] summary~* {
   transform: skew(0deg,30deg)
  } 
 
+.phone-no{
+  margin-left: 16px;
+}
+
+.fs-21{
+  font-size: 21px;
+}
+
+.fa-location-dot,.fa-phone,.fa-envelope{
+  width: 60px;
+    background-image: linear-gradient(315deg, #00B87B 0%, #03c8a8 74%);
+    height: 60px;
+    border-radius: 100%;
+    text-align: center;
+    /* display: inline-block; */
+    padding: 20px;
+}
+}
+
+.m-auto{
+  margin: auto;
+}
