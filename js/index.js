@@ -144,8 +144,6 @@ const interval = setInterval(function () {
   }
 }, 1000);
 
-
-
 // navlink collapse when click link
 for (var i = 0; i < links.length; i++) {
   links[i].addEventListener('click', function () {
