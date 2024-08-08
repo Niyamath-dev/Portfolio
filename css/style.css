@@ -172,7 +172,7 @@ body {
 }
 
 .service-item {
-  padding: 40px;
+  padding: 25px;
   background-color: #00283a;
   border-radius: 10px;
   /* box-shadow: 0 2px 4px -2px rgb(0 0 0 / 60%); */
@@ -532,6 +532,10 @@ body {
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, .55);
   border-color: none;
+}
+
+.navbar{
+  height: 90px;
 }
 
 .navbar-toggler:focus {
